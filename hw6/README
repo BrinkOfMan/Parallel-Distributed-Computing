@@ -1,0 +1,56 @@
+- Note: Output form both the link machine and V20
+
+========== omprimes3 100000000 32 LINK ==========
+real 16.30
+user 53.31
+sys 0.43
+real 16.64
+user 54.04
+sys 0.44
+real 16.53
+user 53.88
+sys 0.44
+
+
+========== omprimes3 100000000 32 V20 ==========
+real 0.56
+user 29.05
+sys 0.31
+real 0.40
+user 19.22
+sys 0.31
+real 0.77
+user 40.83
+sys 0.41
+
+------------------- Comparison to omprimes2 -------------------
+
+========== omprimes2 100000000 32 ==========
+real 16.63 <- 32X longer than omprimes3 link machine
+user 53.88 <- twice as long as omprimes3
+sys 0.46
+real 16.63 <- much larger than link machine
+user 53.75 <- 2.5 times longer than omprimes3
+sys 0.41
+real 16.61
+user 54.03 <- 1.5 times longer than omprimes3
+sys 0.40
+
+It seems like omprimes3 runs a LOT quicker than omprimes2, in both user and real time.
+
+Also, it seems as though the link machines have a much larger real time than the V20 machine. Not sure why this is.
+
+========== omprimes4 100000000 32 LINK ==========
+real 8.98 <- twice as fast as omprimes3
+user 46.63 <- slightly faster than omprimes3
+sys 0.40
+real 8.45
+user 44.31 <- also slightly faster than omprimes3
+sys 0.40
+real 9.56
+user 51.00 <- about the same speed as omprimes3
+sys 0.40
+
+Looks like there is a noticeable difference, albeit not by an incredibly large margin.
+
+Still, an improvement is an improvement!

@@ -1,0 +1,26 @@
+V20 observations:
+
+========== omprimes1 100000000 32 ==========
+real 1.08
+user 1.05
+sys 0.03
+real 1.08
+user 1.05
+sys 0.02
+real 1.11
+user 1.04
+sys 0.05
+
+========== omprimes1 100000000 32 ==========
+real 1.15
+user 1.12
+sys 0.03
+real 1.57
+user 1.54
+sys 0.03
+real 1.07
+user 1.03
+sys 0.03
+
+Step 3a, 3b:
+Regarding the differences in sequential computaitons for sievetest.first-stl and sievetest.first-tbb, there seems to be no difference in how modifying the queue affects the resulting times.

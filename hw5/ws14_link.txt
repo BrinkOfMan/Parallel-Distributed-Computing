@@ -1,0 +1,9 @@
+[brinkm1@rns202-10 omprimes2]$ time ../omprimes1/bin/sieve 10000000 4
+664579 primes are less than or equal to 10000000
+0.066u 0.023s 0:00.09 88.8%     0+0k 0+0io 0pf+0w
+
+[brinkm1@rns202-10 omprimes2]$ time ../omprimes2/bin/sieve 10000000 4
+664579 primes are less than or equal to 10000000
+19.062u 0.114s 0:05.85 327.6%   0+0k 0+0io 0pf+0w
+
+Looks like the sequential program runs a lot faster

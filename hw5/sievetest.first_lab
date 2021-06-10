@@ -1,0 +1,176 @@
+========== omprimes1 1000000 1 ==========
+real 0.01
+user 0.00
+sys 0.00
+real 0.01
+user 0.00
+sys 0.00
+real 0.01
+user 0.00
+sys 0.00
+
+========== omprimes1 1000000 4 ==========
+real 0.01
+user 0.00
+sys 0.00
+real 0.01
+user 0.00
+sys 0.00
+real 0.01
+user 0.00
+sys 0.00
+
+========== omprimes1 1000000 16 ==========
+real 0.01
+user 0.00
+sys 0.00
+real 0.01
+user 0.00
+sys 0.00
+real 0.01
+user 0.00
+sys 0.00
+
+========== omprimes1 1000000 32 ==========
+real 0.01
+user 0.00
+sys 0.00
+real 0.01
+user 0.00
+sys 0.00
+real 0.01
+user 0.00
+sys 0.00
+
+========== omprimes1 100000000 1 ==========
+real 1.29
+user 1.10
+sys 0.17
+real 1.36
+user 1.15
+sys 0.18
+real 1.22
+user 1.05
+sys 0.15
+
+========== omprimes1 100000000 4 ==========
+real 1.26
+user 1.06
+sys 0.18
+real 1.24
+user 1.07
+sys 0.15
+real 1.31
+user 1.11
+sys 0.17
+
+========== omprimes1 100000000 16 ==========
+real 1.32
+user 1.14
+sys 0.17
+real 1.24
+user 1.06
+sys 0.16
+real 1.24
+user 1.08
+sys 0.14
+
+========== omprimes1 100000000 32 ==========
+real 1.28
+user 1.11
+sys 0.16
+real 1.24
+user 1.06
+sys 0.16
+real 1.20
+user 1.03
+sys 0.15
+
+========== omprimes2 1000000 1 ==========
+real 2.25
+user 7.21
+sys 0.02
+real 2.35
+user 7.31
+sys 0.03
+real 2.18
+user 7.28
+sys 0.03
+
+========== omprimes2 1000000 4 ==========
+real 2.22
+user 7.17
+sys 0.05
+real 2.25
+user 7.27
+sys 0.04
+real 2.14
+user 7.19
+sys 0.04
+
+========== omprimes2 1000000 16 ==========
+real 2.31
+user 7.30
+sys 0.03
+real 2.29
+user 7.22
+sys 0.03
+real 2.10
+user 7.25
+sys 0.04
+
+========== omprimes2 1000000 32 ==========
+real 2.13
+user 7.26
+sys 0.03
+real 2.15
+user 7.10
+sys 0.04
+real 2.21
+user 7.35
+sys 0.03
+
+========== omprimes2 100000000 1 ==========
+real 16.50
+user 54.06
+sys 0.40
+real 16.79
+user 54.36
+sys 0.42
+real 17.05
+user 54.11
+sys 0.43
+
+========== omprimes2 100000000 4 ==========
+real 16.49
+user 53.81
+sys 0.45
+real 16.37
+user 53.75
+sys 0.44
+real 16.36
+user 54.07
+sys 0.42
+
+========== omprimes2 100000000 16 ==========
+real 16.45
+user 53.67
+sys 0.44
+real 16.40
+user 53.55
+sys 0.43
+real 15.18
+user 52.39
+sys 0.43
+
+========== omprimes2 100000000 32 ==========
+real 16.63
+user 53.88
+sys 0.46
+real 16.63
+user 53.75
+sys 0.41
+real 16.61
+user 54.03
+sys 0.40
+

@@ -1,0 +1,11 @@
+[=, &count](int a, int b) {
+
+  int sum = 0;
+
+  for (int i = a;  i < b;  i++)
+    sum += pow(p,a);
+  
+  count += b-a
+
+  return sum;
+}

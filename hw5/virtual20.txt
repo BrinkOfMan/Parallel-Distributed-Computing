@@ -1,0 +1,59 @@
+brinkm1@virtual20:~/PDC/hw5$ time ./trap_omp 2
+OMP defined, threadct = 2
+With n = 1048576 trapezoids, our estimate of the integral from 0 to 3.14159 is 2
+
+real    0m0.025s
+user    0m0.039s
+sys     0m0.004s
+
+brinkm1@virtual20:~/PDC/hw5$ time ./trap_omp 4
+OMP defined, threadct = 4
+With n = 1048576 trapezoids, our estimate of the integral from 0 to 3.14159 is 2
+
+real    0m0.017s
+user    0m0.058s
+sys     0m0.000s
+
+brinkm1@virtual20:~/PDC/hw5$ time ./trap_omp 8
+OMP defined, threadct = 8
+With n = 1048576 trapezoids, our estimate of the integral from 0 to 3.14159 is 2
+
+real    0m0.016s
+user    0m0.084s
+sys     0m0.004s
+
+brinkm1@virtual20:~/PDC/hw5$ time ./trap_omp 16
+OMP defined, threadct = 16
+With n = 1048576 trapezoids, our estimate of the integral from 0 to 3.14159 is 2
+
+real    0m0.019s
+user    0m0.154s
+sys     0m0.054s
+
+brinkm1@virtual20:~/PDC/hw5$ time ./trap_omp 3
+OMP defined, threadct = 3
+With n = 1048576 trapezoids, our estimate of the integral from 0 to 3.14159 is 2
+
+real    0m0.021s
+user    0m0.049s
+sys     0m0.005s
+
+brinkm1@virtual20:~/PDC/hw5$ time ./trap_omp 5
+OMP defined, threadct = 5
+With n = 1048576 trapezoids, our estimate of the integral from 0 to 3.14159 is 2
+
+real    0m0.019s
+user    0m0.067s
+sys     0m0.004s
+
+brinkm1@virtual20:~/PDC/hw5$ time ./trap_omp 10
+OMP defined, threadct = 10
+With n = 1048576 trapezoids, our estimate of the integral from 0 to 3.14159 is 2
+
+real    0m0.013s
+user    0m0.081s
+sys     0m0.005s
+
+User+Sys (actual CPU time the process used) seems to increase with the more threads being used.
+
+This is also probably due to the overhead of initializing the pool of threads, and the more efficient running time not being enough to outweight the initialization time.

@@ -1,0 +1,15 @@
+brinkm1@virtual20:~/PDC/hw5/omprimes2$ time ../omprimes1/bin/sieve 100000000 4
+bash: ../omprimes1/bin/sieve: No such file or directory
+
+real    0m0.003s
+user    0m0.002s
+sys     0m0.000s
+
+brinkm1@virtual20:~/PDC/hw5/omprimes2$ time ../omprimes2/bin/sieve 100000000 4
+5761455 primes are less than or equal to 100000000
+
+real    0m0.718s
+user    0m37.917s
+sys     0m0.537s
+
+Looks like the sequential program runs a lot faster
